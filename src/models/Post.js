@@ -6,7 +6,7 @@ const schema = new mongoose.Schema(
 		body: { type: String, required: true },
 		image: { type: String, required: false },
 		userId: { type: mongoose.Schema.Types.ObjectId, required: true },
-		user: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+		// user: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
 	},
 	{ timestamps: true }
 );
