@@ -1,6 +1,6 @@
-# Blogr Front End
+# Blogr BackEnd
 
-A simple blogging application made with react and Semantic UI to demonstrate my knowledge of React (with Authentication support).
+A simple blogging application backend made with Express JS and MongoDB to demonstrate my knowledge of APIs with NodeJS.
 
 # Setup
 
@@ -13,11 +13,3 @@ Rename `env-sample` to `.env` and change it to your liking.
 $ yarn install
 $ yarn start
 ```
-
-## Screenshots
-
-![screenshots](screenshots/1.png)
-![screenshots](screenshots/2.png)
-![screenshots](screenshots/3.png)
-![screenshots](screenshots/4.png)
-![screenshots](screenshots/5.png)
