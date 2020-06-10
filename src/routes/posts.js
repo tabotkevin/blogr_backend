@@ -31,10 +31,6 @@ router.get("/", (req, res) => {
 	);
 });
 
-router.get("/blog", (req, res) => {
-	Post.find({}).then((posts) => res.json({ posts }));
-});
-
 router.get("/:_id", (req, res) => {
 	Post.findById(req.params._id).then((post) => res.json({ post }));
 });

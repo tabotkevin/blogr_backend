@@ -13,3 +13,7 @@ Rename `env-sample` to `.env` and change it to your liking.
 $ yarn install
 $ yarn start
 ```
+
+## Screenshots
+
+![screenshots](screenshots/1.png)

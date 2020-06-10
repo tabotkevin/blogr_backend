@@ -8,6 +8,7 @@ import Promise from "bluebird";
 import auth from "./routes/auth";
 import users from "./routes/users";
 import posts from "./routes/posts";
+import blog from "./routes/blog";
 import uploadErrors from "./middlewares/errors";
 
 dotenv.config();
@@ -28,6 +29,7 @@ mongoose.connect(process.env.MONGODB_URL, { useMongoClient: true });
 app.use("/api/auth", auth);
 app.use("/api/users", users);
 app.use("/api/posts", posts);
+app.use("/api/blog", blog);
 
 app.get("/*", (req, res) => {
 	res.sendFile(path.join(__dirname, "/public/index.html"));
